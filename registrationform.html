@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            background-color: #e8f3f8;
+        }
+        h1{
+            text-align: center;
+            font-size:50px ;
+            color: steelblue;
+        }
+        form{
+            margin:  20px auto;
+            width: 320px;
+            color: steelblue;
+        }
+        input{
+
+            padding: 10px;
+            font-size: inherit;
+        }
+
+        input[type="text"]{
+            display: block;
+            margin-bottom: 25px;
+            width: 100%;
+            border: 2px solid slateblue;
+            background: greenyellow;
+
+        }
+        input[type="password"]{
+            display: block;
+            margin-bottom: 25px;
+            width: 100%;
+            border: 2px solid slateblue;
+            background:greenyellow;
+
+        }
+        input[type="email"]{
+            display: block;
+            margin-bottom:25px ;
+            width: 100%;
+            border: 2px solid slateblue;
+            background: greenyellow;
+
+        }
+        input[type="radio"]{
+            margin: 0 8px 25px 18px;
+            background: greenyellow;
+
+           
+        }
+        input[type="radio"]:first-child{
+          margin-left:0 ;
+          background: greenyellow;
+
+        }
+        input[type="submit"]{
+            width: 344px;
+            height: 45px;
+            border: none;
+            background-color: rgb(68, 141, 201);
+            color: white;
+        }
+        input  :focus{
+            background:white ;
+        }
+        
+        
+    </style>
+
+</head>
+
+
+<body>
+    <h1>Simple form</h1>
+    <form >
+
+        <input type="text" name="" id="" placeholder="First name"><br><br>
+        <input type="text" name="" id="" placeholder="Last name"><br><br>
+        <input type="email" name="" id="" placeholder="Email"><br><br>
+        <input type="password" name="" id="" placeholder="Password"><br><br>
+        <input type="password" name="" id="" placeholder="Confirm Password"><br><br>
+        <input type="radio" name="gender" id="male">male
+        <input type="radio" name="gender" id="female">female<br><br>
+        <input type="submit" name="" id="">
+
+    </form>
+    
+</body>
+</html>
